@@ -13,6 +13,7 @@ let employee = [
 ];
 
 console.log(filter_1())
+console.log(filter_2())
 console.log(filter_3())
 
 function filter_1(){
@@ -22,11 +23,13 @@ function filter_1(){
 }
 
 
-let age = employee.reduce((r, a) => {
+function filter_2(){
+    let age = employee.reduce((r, a) => {
     r[a.age] = [...(r[a.age] || []), a];
     return r;
 }, {});
 console.log(age);
+}
 
 
 function filter_3(){
