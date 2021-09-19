@@ -1,5 +1,5 @@
 let employee = [
-    {name: "Palkin", age: '21', salary: 7500, DOB: "08-10-1999"},
+  {name: "Palkin", age: '21', salary: 7500, DOB: "08-10-1999"},
   {name: "Milan", age: '30', salary: 9000, DOB: "12-03-1991"},
   {name: "Sakshi", age: '26', salary: 500, DOB: "27-05-1995"},
   {name: "Prachi", age: '18', salary: 400, DOB: "30-07-2003"},
